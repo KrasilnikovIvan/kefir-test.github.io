@@ -1,0 +1,55 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 56px;
+    line-height: 1;
+    height: 100%;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 56px;
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+#map {
+    height: calc(100vh - 112px);
+}
+#map > img{
+    width: 100%;
+}
+#map .amcharts-chart-div > a{
+    display: none!important;
+}
+.container .text-muted {
+    margin: 18px 0;
+}
+nav.navbar{
+    background-color: #f5f5f5;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+a.navbar-brand > *{
+    display: inline;
+    max-height: 30px;
+}
